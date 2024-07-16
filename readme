@@ -1,0 +1,38 @@
+# # Day 01 : Variable and data type
+
+# # # Achievement
+
+# know how to declare variable using var , let and const
+# understand the different data type in javascript
+# be able to use the typeof operator to identify the data type of a variable
+# understand the concept of variable resassignment and the immutability of const variable
+
+# Day 02 : operator
+
+# # Achievement
+
+# understand and use arithmetic operator to perform basic calculation
+# use assignment operator to modify variable
+# compare values using comparsion operator
+# combine condition using logical operator
+# use the ternary operator for console conditional expression
+
+# Day 03 : Control Structures
+
+# Achievement
+
+# Implement and understand basic if-else control flow
+# use nested if-else statement to handle multiple condition
+# utilize switch cases for control flow based on specific value
+# apply the ternary operator for concise condition checking
+# combine mulitple condition to solve more complex problem
+
+# Day 02 : Loop
+
+# # Achievement
+
+# understand and use for Loos to iternate over a sequence of numbers 
+# utilize while loop for iteration based on a condition 
+# apply do..while loop to ensute the loop body is execute at least once
+# Implement nested loops to sove more complex problem
+# use loop control statement ( break and continue) to control the flow of loops
