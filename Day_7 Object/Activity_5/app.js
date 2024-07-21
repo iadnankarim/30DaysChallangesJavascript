@@ -1,8 +1,37 @@
 //task 8
 //use a for...in loop to iterate over the properties of the book object and log each property and its value
-for (const key in book) {
-  console.log(book[key]);
-}
+const library = {
+  name: "adnan",
+  books: [
+    {
+      title: "karim",
+      author: "adnan",
+      year: 1212,
+    },
+    {
+      title: "karim",
+      author: "adnan",
+      year: 1212,
+    },
+    {
+      title: "karim",
+      author: "adnan",
+      year: 1212,
+    },
+  ],
+  printBooks: function () {
+    console.log(this.name);
+    this.books.forEach((book, index) => {
+      console.log(`Book ${index + 1}:`);
+      for (let prop in book) {
+        console.log(`${prop}: ${book[prop]}`);
+      }
+      console.log(); // empty line for separation
+    });
+  },
+};
+
+library.printBooks();
 
 //task 9
 // use object.key and object.value method to log alll the key value of the book object
